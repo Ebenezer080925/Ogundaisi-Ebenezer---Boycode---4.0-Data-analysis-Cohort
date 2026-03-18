@@ -115,78 +115,76 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Like%20and%20underscore%20with%20numbers%20of%20characters%20%20and%20any%20letter%20else.png)
 
 ### Group by
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Group%20by.png)
 
 ### Group by with AVG
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Group%20by%20with%20AVG.png)
 
-### Group by with multiple function
-![]()
+### Group by with multiple column
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Group%20by%20with%20multiple%20column.png)
 
 ### Group by with Aggregrate function
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Group%20by%20with%20Aggregate%20functions.png)
 
 ### Order by ASC 
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Order%20by%20ASC.png)
 
 ### Order by DESC
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Order%20by%20DESC.png)
 
 ### Order by with arrangement of the gender by male age and female 
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Order%20by%20with%20arrangement%20of%20the%20gender%20by%20male%20age%20and%20female.png)
 
 ### Order by not Unique column
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Order%20by%20not%20Unique%20column.png)
 
 ### Order by column number not name
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Order%20by%20column%20number%20not%20name.png)
 
 ### HAVING VS WHERE not correct
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Having%20VS%20Where%20NOT%20correct.png)
 
 ### HAVING VS WHERE correct
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Having%20VS%20Where%20correct.png)
 
 ### HAVING VS WHERE and group by proper arrangement 
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Having%20VS%20Where%20and%20Group%20by%20proper%20arrangement%20.png)
 
 ### LIMIT
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/LIMIT.png)
 
 ### LIMIT Top 3
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/LIMIT%20Top%203.png)
 
 ### ALIASING 
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Aliasing.png)
 
 ### JOIN
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN.png)
 
 ###  JOIN with Aliasing
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20With%20Aliasing%20.png)
 
 ### JOIN getting a specific column
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20getting%20specific%20column.png)
 
 ### LEFT JOIN
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20.LEFT%20JOIN.png)
 
 ### RIGHT JOIN 
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20.RIGHT%20JOIN%20.png)
 
 ### SELF JOIN
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20.SELF%20JOIN.png)
 
 ### SELF JOIN by solving Assignng of task
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20.SELF%20JOIN%20Assigning%20task.png)
 
 ### Join multiple table 
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20multiple%20table%20.png)
+
 ![]()
 
-###
-![]()
 
-###
-![]()
 
 
