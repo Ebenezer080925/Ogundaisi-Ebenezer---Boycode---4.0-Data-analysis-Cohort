@@ -114,74 +114,73 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ### Like and underscore with numbers of Characters and any letter else
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Like%20and%20underscore%20with%20numbers%20of%20characters%20%20and%20any%20letter%20else.png)
 
-###
+### Group by
 ![]()
 
-###
+### Group by with AVG
 ![]()
 
-###
+### Group by with multiple function
 ![]()
 
-###
+### Group by with Aggregrate function
 ![]()
 
-###
+### Order by ASC 
 ![]()
 
-###
+### Order by DESC
 ![]()
 
-###
+### Order by with arrangement of the gender by male age and female 
 ![]()
 
-###
+### Order by not Unique column
 ![]()
 
-###
+### Order by column number not name
 ![]()
 
-###
+### HAVING VS WHERE not correct
 ![]()
 
-
-###
+### HAVING VS WHERE correct
 ![]()
 
-###
+### HAVING VS WHERE and group by proper arrangement 
 ![]()
 
-###
+### LIMIT
 ![]()
 
-###
+### LIMIT Top 3
 ![]()
 
-###
+### ALIASING 
 ![]()
 
-###
+### JOIN
 ![]()
 
-###
+###  JOIN with Aliasing
 ![]()
 
-###
+### JOIN getting a specific column
 ![]()
 
-###
+### LEFT JOIN
 ![]()
 
-###
+### RIGHT JOIN 
 ![]()
 
-###
+### SELF JOIN
 ![]()
 
-###
+### SELF JOIN by solving Assignng of task
 ![]()
 
-###
+### Join multiple table 
 ![]()
 
 ###
