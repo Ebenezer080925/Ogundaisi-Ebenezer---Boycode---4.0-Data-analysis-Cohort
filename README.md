@@ -229,7 +229,7 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20.SELF%20JOIN%20Assigning%20task.png)
 
 ## Join multiple table 
-###Demonstrating the ability to link three or more tables simultaneously (Demographics, Salary, and Departments) to create a comprehensive view of the organizational structure.
+### Demonstrating the ability to link three or more tables simultaneously (Demographics, Salary, and Departments) to create a comprehensive view of the organizational structure.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20multiple%20table%20.png)
 
 ## UNION
@@ -285,58 +285,76 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ### String function with POSITION Use case
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20POSITION%20Use%20case.png)
 
-### String function with CONCAT
+## String function with CONCAT
+### Combining multiple text columns (First and Last name) into a single, professional full-name field for cleaner reporting.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20CONCAT.png)
 
-### Case Statement
+## Case Statement
+### Using simple CASE logic to create a binary category—labeling records as 'Young' based on a specific age threshold.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Case%20Statement%20.png)
 
-### Case Statement with multiple case
+## Case Statement with multiple case
+### Implementing multi-tiered logic to create age brackets (Young, Old, etc.), showcasing how to handle multiple conditions in a single column.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Case%20Statement%20with%20multiple%20case.png)
 
-### Case Statement Use case 1
+## Case Statement Use case 1
+### Applying professional business logic to data: calculating tiered pay increases and bonuses based on salary ranges within a single query.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Case%20Statement%20Use%20case%201.png)
 
-### Subqueries Inner query
+## Subqueries Inner query
+### Mastering the 'Query within a Query' technique. Using subqueries in the WHERE clause to filter the demographics table based on criteria from the salary table. This runs the inner query only that i selected 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Subqueries%20Inner%20query.png)
 
-### Subqueries Total query
+## Subqueries Total query 
+### This runs the total subquery
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Subqueries%20Total%20query.png)
 
-### Subqueries AVG_MAX_AGE
+## Subqueries AVG_MAX_AGE
+### Performing advanced nested aggregation—calculating the average of maximum values by treating a subquery as a temporary table.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Subqueries%20AVG_MAX_AGE.png)
 
-### Windows function
+## Windows function
+### Introducing the OVER() and PARTITION BY clauses. This allows for calculating aggregates (like average salary) while still keeping individual rows visible.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Windows%20function.png)
 
-### Windows function Over, Partition rolling total
+## Windows function Over, Partition rolling total
+### Calculating a 'Rolling Total' by partitioning data by gender and ordering by ID—a key technique for tracking cumulative business metrics over time.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Windows%20function%20Over%2C%20Partition%20rolling%20total.png)
 
-### Windows function row_number
+## Windows function row_number
+### Using the ROW_NUMBER() function to assign unique sequential integers to every row, which is essential for data deduplication and pagination.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Windows%20function%20row_number.png)
 
-### Windows function row_number ORDER BY
+## Windows function row_number ORDER BY
+### Using ROW_NUMBER() with PARTITION BY to assign a unique, sequential rank to every row within a group. This is the standard method for identifying the 'first' or 'most recent' record in a dataset.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Windows%20function%20row_number%20ORDER%20BY%20.png)
 
-### Windows function row_number ORDER BY, RANK
+## Windows function row_number ORDER BY, RANK
+### Introducing RANK(). This image highlights the difference in ranking logic—where duplicate values receive the same rank, and the next rank is skipped (e.g., 1, 2, 2, 4).
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Windows%20function%20row_number%20ORDER%20BY%20%2CRANK.png)
 
-### Windows function row_number ORDER BY, RANK, DENSE_RANK
+## Windows function row_number ORDER BY, RANK, DENSE_RANK
+### The complete ranking comparison. This demonstrates DENSE_RANK(), which assigns the same rank to duplicates but does not skip numbers (e.g., 1, 2, 2, 3), providing a continuous numerical sequence.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Windows%20function%20row_number%20ORDER%20BY%20%2CRANK%2C%20DENSE_RANK.png)
 
-### CTEs Inner Query
+## CTEs Inner Query
+### Using the WITH clause to create a named temporary result set. This allows for complex aggregations (like averages and counts) to be stored in a 'virtual table' that can then be queried normally, significantly improving code readability. But this query i Highlighted is running thet inner query for you to see the beauty
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/CTEs%20Inner%20Query.png)
 
-### CTEs Total Query
+## CTEs Total Query
+### this is the result of running the entire subqery very fast to query esy to read and understand what the query is talking and easy to debug
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/CTEs%20Total%20Query.png)
 
-### CTEs selecting specific column
+## CTEs selecting specific column
+### Demonstrating the power of CTEs for multi-layered analysis—first aggregating data within the CTE and then performing a secondary calculation (like a grand average) on those results.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/CTEs%20selecting%20specific%20column.png)
 
-### CTE is Immediately after
+### CTEs is Immediately after
+### whenever a inner query is ran inside a CTE statement the column cannot be called back after the query that is after the semi-colon
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/CTEs%20%20is%20immediately%20after.png)
 
-### CTE multiple CTEs
+## CTE multiple CTEs
+### A showcase of advanced query modularity. Defining two separate CTEs—one for demographic filtering and one for salary filtering—and then joining them together in the final statement. This 'building block' approach is a best practice for complex data engineering.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/CTEs%20multiple%20CTEs.png)
 
 
