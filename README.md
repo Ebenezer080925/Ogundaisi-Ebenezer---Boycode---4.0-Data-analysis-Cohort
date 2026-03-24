@@ -195,6 +195,90 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ### UNION case 2
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/UNION%20use%20case%202.png)
 
+### String function with Length
+![]()
+
+### String function with Length, order by
+![]()
+
+### String function with Upper & Lower
+![]()
+
+### TRIM
+![]()
+
+### TRIM,LTRIM
+![]()
+
+### String function with SUBSTRING
+![]()
+
+### String function with EXTRACT
+![]()
+
+### String function with Replace
+![]()
+
+### String function with POSITION in place of LOCATE 
+![]()
+
+### String function with POSITION Use case
+![]()
+
+### String function with CONCAT
+![]()
+
+### Case Statement
+![]()
+
+### Case Statement with multiple case
+![]()
+
+### Case Statement Use case 1
+![]()
+
+### Subqueries Inner query
+![]()
+
+### Subqueries Total query
+![]()
+
+### Subqueries AVG_MAX_AGE
+![]()
+
+### Windows function
+![]()
+
+### Windows function Over, Partition rolling total
+![]()
+
+### Windows function row_number
+![]()
+
+### Windows function row_number ORDER BY
+![]()
+
+### Windows function row_number ORDER BY, RANK
+![]()
+
+### Windows function row_number ORDER BY, RANK, DENSE_RANK
+![]()
+
+### CTEs Inner Query
+![]()
+
+### CTEs Total Query
+![]()
+
+### CTEs selecting specific column
+![]()
+
+### CTE is Immediately after
+![]()
+
+### CTE multiple CTEs
+![]()
+
 
 
 
