@@ -196,88 +196,88 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/UNION%20use%20case%202.png)
 
 ### String function with Length
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20Length.png)
 
 ### String function with Length, order by
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20Length%2C%20order%20by.png)
 
 ### String function with Upper & Lower
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20Upper%26Lower.png)
 
 ### TRIM
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/TRIM.png)
 
 ### TRIM,LTRIM
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/TRIM%2C%20LTRIM.png)
 
 ### String function with SUBSTRING
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20SUBSTRING%20.png)
 
 ### String function with EXTRACT
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20EXTRACT.png)
 
 ### String function with Replace
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20Replace.png)
 
 ### String function with POSITION in place of LOCATE 
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20POSITION%20in%20place%20of%20LOCATE.png)
 
 ### String function with POSITION Use case
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20POSITION%20Use%20case.png)
 
 ### String function with CONCAT
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20CONCAT.png)
 
 ### Case Statement
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Case%20Statement%20.png)
 
 ### Case Statement with multiple case
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Case%20Statement%20with%20multiple%20case.png)
 
 ### Case Statement Use case 1
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Case%20Statement%20Use%20case%201.png)
 
 ### Subqueries Inner query
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Subqueries%20Inner%20query.png)
 
 ### Subqueries Total query
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Subqueries%20Total%20query.png)
 
 ### Subqueries AVG_MAX_AGE
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Subqueries%20AVG_MAX_AGE.png)
 
 ### Windows function
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Windows%20function.png)
 
 ### Windows function Over, Partition rolling total
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Windows%20function%20Over%2C%20Partition%20rolling%20total.png)
 
 ### Windows function row_number
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Windows%20function%20row_number.png)
 
 ### Windows function row_number ORDER BY
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Windows%20function%20row_number%20ORDER%20BY%20.png)
 
 ### Windows function row_number ORDER BY, RANK
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Windows%20function%20row_number%20ORDER%20BY%20%2CRANK.png)
 
 ### Windows function row_number ORDER BY, RANK, DENSE_RANK
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Windows%20function%20row_number%20ORDER%20BY%20%2CRANK%2C%20DENSE_RANK.png)
 
 ### CTEs Inner Query
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/CTEs%20Inner%20Query.png)
 
 ### CTEs Total Query
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/CTEs%20Total%20Query.png)
 
 ### CTEs selecting specific column
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/CTEs%20selecting%20specific%20column.png)
 
 ### CTE is Immediately after
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/CTEs%20%20is%20immediately%20after.png)
 
 ### CTE multiple CTEs
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/CTEs%20multiple%20CTEs.png)
 
 
 
