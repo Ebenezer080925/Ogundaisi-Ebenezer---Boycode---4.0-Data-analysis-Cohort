@@ -176,85 +176,110 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ### A professional shorthand technique—sorting data using column positions (e.g., Order by 5, 4) instead of typing out long column names.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Order%20by%20column%20number%20not%20name.png)
 
-### HAVING VS WHERE not correct
+## HAVING VS WHERE not correct
+### Demonstrating the correct use of HAVING to filter groups based on aggregate values (like an average age > 40), which cannot be done with a standard WHERE clause.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Having%20VS%20Where%20NOT%20correct.png)
 
-### HAVING VS WHERE correct
+## HAVING VS WHERE correct
+### Demonstrating the correct use of HAVING to filter groups based on aggregate values (like an average age > 40), which cannot be done with a standard WHERE clause.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Having%20VS%20Where%20correct.png)
 
-### HAVING VS WHERE and group by proper arrangement 
+## HAVING VS WHERE and group by proper arrangement 
+### Mastering query structure. This image shows the logical flow of a query: filtering raw rows with WHERE, grouping them, and then filtering those groups with HAVING
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Having%20VS%20Where%20and%20Group%20by%20proper%20arrangement%20.png)
 
-### LIMIT
+## LIMIT
+### Controlling the volume of data returned. This is essential for testing queries on large datasets without overwhelming the system.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/LIMIT.png)
 
-### LIMIT Top 3
+## LIMIT Top 3
+### Controlling the volume of data returned. This is essential for testing queries on large datasets without overwhelming the system.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/LIMIT%20Top%203.png)
 
-### ALIASING 
+## ALIASING 
+### Using the AS keyword to rename aggregated columns (like avg_age), making the final output intuitive and professional for end-users.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Aliasing.png)
 
-### JOIN
+## JOIN
+### The core of relational databases—using an INNER JOIN to combine the demographics and salary tables based on a shared employee_id.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN.png)
 
-###  JOIN with Aliasing
+##  JOIN with Aliasing
+### Combining advanced techniques. Using table aliases (like dem and sal) to write shorter, more efficient join queries while avoiding column name ambiguity.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20With%20Aliasing%20.png)
 
-### JOIN getting a specific column
+## JOIN getting a specific column
+### Refining joined data to extract exactly what is needed—such as matching an employee's ID and age from one table with their occupation from another.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20getting%20specific%20column.png)
 
-### LEFT JOIN
+## LEFT JOIN
+### Implementing a LEFT JOIN to ensure all records from the 'left' table (demographics) are preserved, even if there is no matching record in the salary table.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20.LEFT%20JOIN.png)
 
-### RIGHT JOIN 
+## RIGHT JOIN 
+### Using a RIGHT JOIN to prioritize the salary table, showcasing how NULL values appear when an employee has a salary record but missing demographic details.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20.RIGHT%20JOIN%20.png)
 
-### SELF JOIN
+## SELF JOIN
+### Mastering the SELF JOIN technique to compare rows within the same table—a powerful method for finding internal relationships or hierarchical data.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20.SELF%20JOIN.png)
 
-### SELF JOIN by solving Assignng of task
+## SELF JOIN by solving Assignng of task
+### A creative use case for SELF JOIN: using a primary key offset (id + 1) to logically link employees together, such as for a 'Secret Santa' or peer-review assignment.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20.SELF%20JOIN%20Assigning%20task.png)
 
-### Join multiple table 
+## Join multiple table 
+###Demonstrating the ability to link three or more tables simultaneously (Demographics, Salary, and Departments) to create a comprehensive view of the organizational structure.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN%20multiple%20table%20.png)
 
-### UNION
+## UNION
+### Merging results from two different tables vertically. Using UNION automatically removes duplicates to provide a list of unique names across the entire organization.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/UNION%20.png)
 
-### UNION ALL
+## UNION ALL
+### Using UNION ALL to stack data while preserving every single record, providing a complete count of all entries without filtering for uniqueness.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/UNION%20ALL%20.png)
 
-### UNION use case 
+## UNION use case 
+### Applying professional data labeling within a UNION. By adding custom string columns (like 'Highly Paid Employee' or 'old'), I transformed raw filtered results into a meaningful categorical report.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/UNION%20use%20case%20.png)
 
 ### UNION case 2
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/UNION%20use%20case%202.png)
 
-### String function with Length
+### String function with Length 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20Length.png)
 
-### String function with Length, order by
+## String function with Length, order by
+### Measuring string depth and using the LENGTH() function as a sorting key—useful for identifying abnormally short or long entries (like IDs or phone numbers).
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20Length%2C%20order%20by.png)
 
-### String function with Upper & Lower
+## String function with Upper & Lower
+### Standardizing text case across a dataset to ensure uniformity, which is critical for professional presentation and case-sensitive data environments.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20Upper%26Lower.png)
 
-### TRIM
+## TRIM
+### Data cleaning essentials—using TRIM to remove all surrounding whitespace
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/TRIM.png)
 
-### TRIM,LTRIM
+## LTRIM
+### LTRIM to specifically clear leading spaces, ensuring data integrity for joins and searches.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/TRIM%2C%20LTRIM.png)
 
-### String function with SUBSTRING
+## String function with SUBSTRING
+### Slicing strings to extract specific segments—such as pulling out the first 4 characters or a middle section—to isolate relevant identifiers.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20SUBSTRING%20.png)
 
-### String function with EXTRACT
+## String function with EXTRACT
+### Bridging the gap between dates and numbers. Using EXTRACT to pull specific components like the Month or Year from a timestamp to perform seasonal or time-based grouping.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20EXTRACT.png)
 
-### String function with Replace
+## String function with Replace
+### Executing bulk updates by replacing specific characters or patterns (e.g., swapping 'A' for 'Z') within a column without affecting the rest of the string.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20Replace.png)
 
-### String function with POSITION in place of LOCATE 
+## String function with POSITION in place of LOCATE 
+### Locating the exact index of a character or substring. This provides a dynamic way to parse complex text based on where specific markers (like '@' or '-') occur.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20POSITION%20in%20place%20of%20LOCATE.png)
 
 ### String function with POSITION Use case
