@@ -140,31 +140,40 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ### Using the underscore (_) wildcard for precision pattern matching, ensuring a search results in names starting with 'A' followed by a specific number of characters.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Like%20and%20underscore%20with%20numbers%20of%20characters%20%20and%20any%20letter%20else.png)
 
-### Group by
+## Group by
+### Learning to consolidate data into unique categories (e.g., by gender) to prepare for statistical analysis.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Group%20by.png)
 
-### Group by with AVG
+## Group by with AVG
+### Using the AVG() function alongside GROUP BY to calculate the mean age for different demographics.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Group%20by%20with%20AVG.png)
 
-### Group by with multiple column
+## Group by with multiple column
+### Deepening analysis by grouping by multiple dimensions (e.g., Occupation and Salary) to see unique combinations of data.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Group%20by%20with%20multiple%20column.png)
 
-### Group by with Aggregrate function
+## Group by with Aggregrate function
+### Performing comprehensive statistical summaries in a single query by calculating the Average, Maximum, Minimum, and Total Count for each group.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Group%20by%20with%20Aggregate%20functions.png)
 
-### Order by ASC 
+## Order by ASC
+### Organizing output in ascending order (ASC)—alphabetizing names from A to Z for structured reporting.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Order%20by%20ASC.png)
 
-### Order by DESC
+## Order by DESC
+### Reversing the sort order (DESC) to prioritize the most recent or highest values in a dataset.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Order%20by%20DESC.png)
 
-### Order by with arrangement of the gender by male age and female 
+## Order by with arrangement of the gender by male age and female 
+### Implementing multi-level sorting—first by gender, then by age—to create a hierarchical view of the data.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Order%20by%20with%20arrangement%20of%20the%20gender%20by%20male%20age%20and%20female.png)
 
-### Order by not Unique column
+## Order by not Unique column
+### Exploring the limitations of sorting; highlighting how ordering by non-unique columns can lead to 'useless' or inconsistent arrangements without a secondary sort key.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Order%20by%20not%20Unique%20column.png)
 
-### Order by column number not name
+## Order by column number not name
+### A professional shorthand technique—sorting data using column positions (e.g., Order by 5, 4) instead of typing out long column names.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Order%20by%20column%20number%20not%20name.png)
 
 ### HAVING VS WHERE not correct
