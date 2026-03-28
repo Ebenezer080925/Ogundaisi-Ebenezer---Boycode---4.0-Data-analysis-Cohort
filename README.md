@@ -357,6 +357,18 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ### A showcase of advanced query modularity. Defining two separate CTEs—one for demographic filtering and one for salary filtering—and then joining them together in the final statement. This 'building block' approach is a best practice for complex data engineering.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/CTEs%20multiple%20CTEs.png)
 
+## Temporary table
+### Building a TEMP TABLE to hold transient data. These tables are session-specific, meaning they offer a sandbox environment to manipulate data without affecting the permanent database schema.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Temporary%20table.png)
 
+## Temporary table use case
+### A real-world application of temporary storage. I used a SELECT INTO approach to quickly grab all employees with salaries over 50k and store them in a temporary table for immediate, focused analysis.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Temporary%20table%20Use%20case.png)
 
+## STORED PROCEDURES syntax format
+### "An educational look at the structural anatomy of a Stored Procedure. This covers defining the language (PL/pgSQL), setting up parameters, and using dollar-quoting ($$) to wrap the procedural body.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/STORED%20PROCEDURES%20Syntax%20format%20%20.png)
 
+## STORED PROCEDURES
+### A practical implementation of automation. Here, I created the large_salaries procedure to encapsulate a specific query logic, which can now be executed instantly with a simple CALL command.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/STORED%20PROCEDURES%201.png)
