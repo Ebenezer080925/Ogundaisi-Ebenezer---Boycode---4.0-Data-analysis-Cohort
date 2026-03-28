@@ -1,4 +1,50 @@
 #        My Assignment Journey In the Boycode 4.0 Data analysis Class
+
+
+#        TABLE OF CONTENT
+
+## SQL- STRUCTURED QUERY LANGUAGE 
+
+## 1. Database Environment & Administration
+### -Setup: Dropping existing databases and creating fresh environments.
+### -Schema Definition: Creating tables with Primary Keys and Constraints.
+### -Data Population: Importing scripts and manual INSERT INTO statements.
+
+## 2. Data Retrieval Fundamentals
+### -Basic Selection: Querying all columns vs. specific columns and DISTINCT values.
+### -Arithmetic Operations: Performing math directly within SELECT statements.
+### -Aliasing: Renaming columns and tables for clean, professional reporting.
+
+## 3. Logical Filtering & Pattern Matching
+### -Comparison Operators: Using WHERE with >, <, and !=.
+### - Operators: Combining multiple conditions with AND, OR, and NOT.
+### -Wildcard Searching: Advanced pattern matching using LIKE with % and _.
+
+## 4. Data Aggregation & Sorting
+### -Summarization: Grouping data to find AVG, MAX, MIN, and COUNT.
+### -Sorting Logic: Ascending and Descending orders, including multi-level and positional sorting.
+### -The HAVING Clause: Filtering aggregated groups and understanding the order of execution.
+
+## 5. Relational SQL (Joins & Unions)
+### -Horizontal Joins: INNER, LEFT, and RIGHT joins to connect multiple tables.
+### -Advanced Joins: SELF JOINS for internal row comparisons and multi-table linking.
+### -Vertical Merging: Using UNION and UNION ALL to stack data and create custom labels.
+
+## 6. Intermediate Logic & String Manipulation
+### -Conditional Formatting: Using CASE statements for tiered logic and bonuses.
+### -String Cleaning: TRIM, UPPER, LOWER, and REPLACE for data integrity.
+### -Data Extraction: Using SUBSTRING, CONCAT, and POSITION to parse text.
+
+## 7. Advanced Analytical SQL
+### -Nested Logic: Subqueries in the WHERE and FROM clauses.
+### -Common Table Expressions (CTEs): Creating modular, readable queries with WITH.
+### -Window Functions: Rolling totals, partitioning data, and ranking (Row Number, Rank, Dense Rank).
+
+## 8. Procedural SQL & Session Management
+### -Temporary Tables: Creating session-based "sandboxes" for testing and data manipulation.
+### -Stored Procedures: Automating repetitive queries into reusable programs.
+
+
 ## From Excel -> PowerBI -> SQL 
 
 ## EXCEL:
