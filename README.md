@@ -30,7 +30,7 @@
 ### -Advanced Joins: SELF JOINS for internal row comparisons and multi-table linking.
 ### -Vertical Merging: Using UNION and UNION ALL to stack data and create custom labels.
 
-## 6. Intermediate Logic & String Manipulation
+## 6. Intermediate Logic & String Function
 ### -Conditional Formatting: Using CASE statements for tiered logic and bonuses.
 ### -String Cleaning: TRIM, UPPER, LOWER, and REPLACE for data integrity.
 ### -Data Extraction: Using SUBSTRING, CONCAT, and POSITION to parse text.
@@ -44,6 +44,8 @@
 ### -Temporary Tables: Creating session-based "sandboxes" for testing and data manipulation.
 ### -Stored Procedures: Automating repetitive queries into reusable programs.
 
+## 9. Data Cleaning 
+### - Remove Duplicate, -Standardizing the project, -Null value OR blank space, -Remove empty column
 
 ## From Excel -> PowerBI -> SQL 
 
@@ -79,7 +81,9 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 
 ## SQL(Postgre)
 
-## Importing SQL Queries
+## 1. Database Environment & Administration
+
+## Importing SQL Queries:
 ### Demonstrating the process of importing and executing external SQL scripts to build out entire database schemas efficiently.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/importing%20SQL%20queries.png)
 
@@ -94,6 +98,8 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ## Inserting values into a table 
 ### Populating the tables with project data using the INSERT INTO statement, ensuring each record aligns with the defined schema.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Inserting%20into%20value.png)
+
+## 2. Data Retrieval Fundamentals
 
 ## Selecting the employee salaries table
 ### Mastering the basic SELECT * statement to retrieve all records and columns from the employee_salary table
@@ -130,6 +136,7 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ### Select multiple rows with calculations order
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Select%20multiple%20row%20with%20calculatios%20in%20orders.png)
 
+## 3. Logical Filtering & Pattern Matching
 ## Using where clause
 ### Isolating a specific record by matching a string value—in this case, retrieving all available data for 'Leslie'.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using%20where%20clause.png)
@@ -185,6 +192,8 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ## Like and underscore with numbers of Characters and any letter else
 ### Using the underscore (_) wildcard for precision pattern matching, ensuring a search results in names starting with 'A' followed by a specific number of characters.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Like%20and%20underscore%20with%20numbers%20of%20characters%20%20and%20any%20letter%20else.png)
+
+## 4. Data Aggregation & Sorting
 
 ## Group by
 ### Learning to consolidate data into unique categories (e.g., by gender) to prepare for statistical analysis.
@@ -246,6 +255,8 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ### Using the AS keyword to rename aggregated columns (like avg_age), making the final output intuitive and professional for end-users.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Aliasing.png)
 
+## 5. Relational SQL (Joins & Unions)
+
 ## JOIN
 ### The core of relational databases—using an INNER JOIN to combine the demographics and salary tables based on a shared employee_id.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/JOIN.png)
@@ -293,6 +304,7 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ### UNION case 2
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/UNION%20use%20case%202.png)
 
+## 6. Intermediate Logic & String Function
 ### String function with Length 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20Length.png)
 
@@ -346,6 +358,8 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ## Case Statement Use case 1
 ### Applying professional business logic to data: calculating tiered pay increases and bonuses based on salary ranges within a single query.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Case%20Statement%20Use%20case%201.png)
+
+## Advanced Analytical SQL
 
 ## Subqueries Inner query
 ### Mastering the 'Query within a Query' technique. Using subqueries in the WHERE clause to filter the demographics table based on criteria from the salary table. This runs the inner query only that i selected 
@@ -403,6 +417,8 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ### A showcase of advanced query modularity. Defining two separate CTEs—one for demographic filtering and one for salary filtering—and then joining them together in the final statement. This 'building block' approach is a best practice for complex data engineering.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/CTEs%20multiple%20CTEs.png)
 
+## 8. Procedural SQL & Session Management
+
 ## Temporary table
 ### Building a TEMP TABLE to hold transient data. These tables are session-specific, meaning they offer a sandbox environment to manipulate data without affecting the permanent database schema.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Temporary%20table.png)
@@ -446,7 +462,7 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ![]()
 
 ##  Trimming the company column
-### 
+### To remoove every Unnecesary space in the space 
 ![]()
 
 ## Different name for same industry
