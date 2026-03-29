@@ -9,6 +9,7 @@ This portfolio showcases my data analysis work across three platforms, progressi
 
 ## 1. Database Environment & Administration (Beginner SQL)
 -Setup: Dropping existing databases and creating fresh environments.
+
  -Schema Definition: Creating tables with Primary Keys and Constraints
  -Data Population: Importing scripts and manual INSERT INTO statements.
 
