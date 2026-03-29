@@ -14,7 +14,7 @@ Thank you for your patience, expert guidance, and for making the complex world o
 
 ## SQL (Structured Query Language)
 <details>
-<summary><b>1. Database Environment & Administration (Beginner SQL)</b></summary>
+<summary><b>1. Database Environment & Administration "DROP,CREATE,..." (Beginner SQL)</b></summary>
 <br>
   
 - **Setup:** Dropping existing databases and creating fresh environments.
@@ -23,7 +23,7 @@ Thank you for your patience, expert guidance, and for making the complex world o
 </details>
 
 <details>
-<summary><b>2. Data Retrieval Fundamentals</b></summary>
+<summary><b>2. Data Retrieval Fundamentals(SELECT,...) </b></summary>
 <br>
 
 - **Basic Selection:** Querying all columns vs. specific columns and DISTINCT values.
@@ -32,7 +32,7 @@ Thank you for your patience, expert guidance, and for making the complex world o
 </details>
 
 <details>
-<summary><b>3. Logical Filtering & Pattern Matching</b></summary>
+<summary><b>3. Logical Filtering & Pattern Matching </b></summary>
 <br>
 
 - **Comparison Operators:** Using WHERE with `>`, `<`, and `!=`.
