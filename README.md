@@ -5,7 +5,7 @@
 
 ## SQL- STRUCTURED QUERY LANGUAGE 
 
-## 1. Database Environment & Administration
+## 1. Database Environment & Administration (Beginner SQL)
 ### -Setup: Dropping existing databases and creating fresh environments.
 ### -Schema Definition: Creating tables with Primary Keys and Constraints.
 ### -Data Population: Importing scripts and manual INSERT INTO statements.
@@ -25,7 +25,7 @@
 ### -Sorting Logic: Ascending and Descending orders, including multi-level and positional sorting.
 ### -The HAVING Clause: Filtering aggregated groups and understanding the order of execution.
 
-## 5. Relational SQL (Joins & Unions)
+## 5. Relational SQL (Joins & Unions) Intermediate SQL
 ### -Horizontal Joins: INNER, LEFT, and RIGHT joins to connect multiple tables.
 ### -Advanced Joins: SELF JOINS for internal row comparisons and multi-table linking.
 ### -Vertical Merging: Using UNION and UNION ALL to stack data and create custom labels.
@@ -35,7 +35,7 @@
 ### -String Cleaning: TRIM, UPPER, LOWER, and REPLACE for data integrity.
 ### -Data Extraction: Using SUBSTRING, CONCAT, and POSITION to parse text.
 
-## 7. Advanced Analytical SQL
+## 7. Advanced Analytical SQL (Advanced SQL)
 ### -Nested Logic: Subqueries in the WHERE and FROM clauses.
 ### -Common Table Expressions (CTEs): Creating modular, readable queries with WITH.
 ### -Window Functions: Rolling totals, partitioning data, and ranking (Row Number, Rank, Dense Rank).
@@ -81,7 +81,7 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 
 ## SQL(Postgre)
 
-## 1. Database Environment & Administration
+## 1. Database Environment & Administration (Beginner SQL)
 
 ## Importing SQL Queries:
 ### Demonstrating the process of importing and executing external SQL scripts to build out entire database schemas efficiently.
@@ -255,7 +255,7 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ### Using the AS keyword to rename aggregated columns (like avg_age), making the final output intuitive and professional for end-users.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Aliasing.png)
 
-## 5. Relational SQL (Joins & Unions)
+## 5. Relational SQL (Joins & Unions) Intermediate SQL
 
 ## JOIN
 ### The core of relational databases—using an INNER JOIN to combine the demographics and salary tables based on a shared employee_id.
@@ -305,6 +305,7 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/UNION%20use%20case%202.png)
 
 ## 6. Intermediate Logic & String Function
+
 ### String function with Length 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/String%20function%20with%20Length.png)
 
@@ -359,7 +360,7 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ### Applying professional business logic to data: calculating tiered pay increases and bonuses based on salary ranges within a single query.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Case%20Statement%20Use%20case%201.png)
 
-## Advanced Analytical SQL
+## Advanced Analytical SQL (Advanced SQL)
 
 ## Subqueries Inner query
 ### Mastering the 'Query within a Query' technique. Using subqueries in the WHERE clause to filter the demographics table based on criteria from the salary table. This runs the inner query only that i selected 
