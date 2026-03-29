@@ -118,13 +118,13 @@ Excel ➔ SQL  ➔ Power BI
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Counting%20Value%20with%20the%20COUNT%20function%20.png)
 
 ### Calculating with sum function
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Calculating%20with%20the%20sum%20function.png)
 
 ### Format Painting
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Format%20painter.png)
 
 ### Formulas and function
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/formulas%20and%20function.png)
 
 ### Using Min and Max
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using%20MIN%20and%20MAX.png)
@@ -157,7 +157,7 @@ Excel ➔ SQL  ➔ Power BI
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/if%20function%20assignment.png)
 
 ### NESTED IF ASSIGNMENT 
-https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Nested%20if%20assignment.png)
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Nested%20if%20assignment.png)
 
 ### COUNTIF(S) and SUMIF(S) Assignment 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/COUNTIF(S)%20and%20SUMIF(S)%20Assignment.png)
