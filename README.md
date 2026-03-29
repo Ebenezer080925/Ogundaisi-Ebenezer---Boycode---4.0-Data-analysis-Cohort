@@ -7,70 +7,96 @@ This portfolio showcases my data analysis work across three platforms, progressi
 
 #        TABLE OF CONTENT
 
-## SQL- STRUCTURED QUERY LANGUAGE 
+## EXCEL
+## POWER BI
 
-### 1. Database Environment & Administration (Beginner SQL)
--Setup: Dropping existing databases and creating fresh environments.
+## SQL (Structured Query Language)
+<details>
+<summary><b>1. Database Environment & Administration (Beginner SQL)</b></summary>
+<br>
+  
+- **Setup:** Dropping existing databases and creating fresh environments.
+- **Schema Definition:** Creating tables with Primary Keys and Constraints.
+- **Data Population:** Importing scripts and manual INSERT INTO statements.
+</details>
 
- -Schema Definition: Creating tables with Primary Keys and Constraints
+<details>
+<summary><b>2. Data Retrieval Fundamentals</b></summary>
+<br>
 
- -Data Population: Importing scripts and manual INSERT INTO statements.
+- **Basic Selection:** Querying all columns vs. specific columns and DISTINCT values.
+- **Arithmetic Operations:** Performing math directly within SELECT statements.
+- **Aliasing:** Renaming columns and tables for clean, professional reporting.
+</details>
 
-### 2. Data Retrieval Fundamentals
- -Basic Selection: Querying all columns vs. specific columns and DISTINCT values.
+<details>
+<summary><b>3. Logical Filtering & Pattern Matching</b></summary>
+<br>
 
- -Arithmetic Operations: Performing math directly within SELECT statements.
+- **Comparison Operators:** Using WHERE with `>`, `<`, and `!=`.
+- **Logical Operators:** Combining multiple conditions with AND, OR, and NOT.
+- **Wildcard Searching:** Advanced pattern matching using LIKE with `%` and `_`.
+</details>
 
- -Aliasing: Renaming columns and tables for clean, professional reporting.
+<details>
+<summary><b>4. Data Aggregation & Sorting</b></summary>
+<br>
 
-### 3. Logical Filtering & Pattern Matching 
- -Comparison Operators: Using WHERE with >, <, and !=.
+- **Summarization:** Grouping data to find AVG, MAX, MIN, and COUNT.
+- **Sorting Logic:** Ascending and Descending orders, including multi-level and positional sorting.
+- **The HAVING Clause:** Filtering aggregated groups and understanding the order of execution.
+</details>
 
- - Operators: Combining multiple conditions with AND, OR, and NOT.
+<details>
+<summary><b>5. Relational SQL (Joins & Unions) Intermediate SQL</b></summary>
+<br>
 
- -Wildcard Searching: Advanced pattern matching using LIKE with % and _.
+- **Horizontal Joins:** INNER, LEFT, and RIGHT joins to connect multiple tables.
+- **Advanced Joins:** SELF JOINS for internal row comparisons and multi-table linking.
+- **Vertical Merging:** Using UNION and UNION ALL to stack data and create custom labels.
+</details>
 
-### 4. Data Aggregation & Sorting
- -Summarization: Grouping data to find AVG, MAX, MIN, and COUNT.
+<details>
+<summary><b>6. Intermediate Logic & String Function</b></summary>
+<br>
 
- -Sorting Logic: Ascending and Descending orders, including multi-level and positional sorting.
+- **Conditional Formatting:** Using CASE statements for tiered logic and bonuses.
+- **String Cleaning:** TRIM, UPPER, LOWER, and REPLACE for data integrity.
+- **Data Extraction:** Using SUBSTRING, CONCAT, and POSITION to parse text.
+</details>
 
- -The HAVING Clause: Filtering aggregated groups and understanding the order of execution.
+<details>
+<summary><b>7. Advanced Analytical SQL (Advanced SQL)</b></summary>
+<br>
 
-### 5. Relational SQL (Joins & Unions) Intermediate SQL
- -Horizontal Joins: INNER, LEFT, and RIGHT joins to connect multiple tables.
+- **Nested Logic:** Subqueries in the WHERE and FROM clauses.
+- **Common Table Expressions (CTEs):** Creating modular, readable queries with WITH.
+- **Window Functions:** Rolling totals, partitioning data, and ranking (Row Number, Rank, Dense Rank).
+</details>
 
- -Advanced Joins: SELF JOINS for internal row comparisons and multi-table linking.
+<details>
+<summary><b>8. Procedural SQL & Session Management</b></summary>
+<br>
 
- -Vertical Merging: Using UNION and UNION ALL to stack data and create custom labels.
+- **Temporary Tables:** Creating session-based "sandboxes" for testing and data manipulation.
+- **Stored Procedures:** Automating repetitive queries into reusable programs.
+</details>
 
-### 6. Intermediate Logic & String Function
- -Conditional Formatting: Using CASE statements for tiered logic and bonuses.
+<details>
+<summary><b>9. Data Cleaning</b></summary>
+<br>
 
- -String Cleaning: TRIM, UPPER, LOWER, and REPLACE for data integrity.
+- **Remove Duplicates:** Identifying and deleting redundant records.
+- **Standardizing:** Formatting data types and naming conventions.
+- **Null values:** Handling blank spaces or NULL entries.
+- **Remove empty columns:** Dropping unused fields.
+</details>
 
- -Data Extraction: Using SUBSTRING, CONCAT, and POSITION to parse text.
 
-### 7. Advanced Analytical SQL (Advanced SQL)
- -Nested Logic: Subqueries in the WHERE and FROM clauses.
-
- -Common Table Expressions (CTEs): Creating modular, readable queries with WITH.
-
- -Window Functions: Rolling totals, partitioning data, and ranking (Row Number, Rank, Dense Rank).
-
-### 8. Procedural SQL & Session Management
- -Temporary Tables: Creating session-based "sandboxes" for testing and data manipulation.
-
- -Stored Procedures: Automating repetitive queries into reusable programs.
-
-### 9. Data Cleaning 
- - Remove Duplicate
-
- -Standardizing the project
-
- -Null value OR blank space
-
--Remove empty column
+## Project Overview
+## Objective 
+## Tools & Techniques
+## Repository Workflow
 
 ## From Excel -> PowerBI -> SQL 
 
