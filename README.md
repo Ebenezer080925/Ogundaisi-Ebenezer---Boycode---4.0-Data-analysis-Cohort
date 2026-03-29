@@ -440,52 +440,52 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 
 ## Data cleaning and duplicate creation
 ### Instead of working on the original "live" data, I created a safe "staging" copy. This acts like a rough draft or a sandbox where I can clean and delete data without the risk of losing the original, important records
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Data%20cleaning%20and%20duplicate%20creation.png)
 
 ## Data Cleaning inserting into duplicate
 ### This is the process of moving all the messy information from the original file into my new "staging" area. It ensures I have a full dataset to work with in my controlled cleaning environment
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Data%20Cleaning%20inserting%20into%20duplicate%20.png)
 
 ## Checking Duplicate row
 ### Before deleting anything, I ran a search to look specifically for those "ID numbers" higher than 1. This allowed me to double-check and confirm that these rows truly were identical mistakes before I removed them.
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/DC%20checking%20Duplicate%20row.png)
 
 ## Checking the row with duplipcate value 
 ### I used a "temporary logic block" (CTE) to neatly organize the repeat rows. Think of this like putting all the "double-printed" pages of a document into a separate folder so I can see exactly how many there are
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/DC%20checking%20the%20row%20with%20duplicate%20value.png)
 
 ## Adding row_number
 ### I gave every row a "ID number" based on how many times that specific piece of information appeared. If a row is assigned the number "2" or "3," it tells me immediately that this is a repeat that needs to be checked.
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/DC%20adding%20row_number.png)
 
 ## Removing the duplicate row
 ### This is the "cleanup" phase where I officially deleted the extra copies. By doing this, I ensured that every person or transaction in the database is only counted once, which makes the final analysis accurate
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/DC%20removing%20the%20duplicate%20row.png)
 
 ##  Trimming the company column
 ### To remoove every Unnecesary space in the space 
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/DC%20trimming%20the%20company%20column.png)
 
 ## Different name for same industry
 ### Sometimes the same industry is typed differently, like "Crypto" and "CryptoCurrency." I went through and renamed them all to one standard name so that when I count them later, the totals are correct
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/DC%20different%20name%20for%20same%20industry.png)
 
 ##  Trimming removing the "." in after United state
 ### Computers think "United States." and "United States" are two different countries because of the tiny period at the end. I "trimmed" off those extra dots and spaces so the computer recognizes them as one single country
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/DC%20trimming%20removing%20the%20.%20in%20after%20United%20state.png)
 
 ## Error with Date
 ### Real-world data often contains "corrupted" entries (like text where a number should be). I documented the specific error messages I encountered, which proves I can identify and fix technical bugs during the data transformation process
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/DC%20Error%20with%20date%20.png)
 
 ## Convert date column to date datatype
 ### Databases often treat dates as simple "text" (like a name), which makes it impossible to sort them by month or year. I used logic to transform these text strings into actual "Date" formats that the computer can recognize for time-based analysis
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/DC%20convert%20date%20column%20to%20date%20datatype.png)
 
 ## Finale Date Value 
 ### After performing the conversion, I ran a final check to ensure every single date in the system followed the exact same pattern (YYYY-MM-DD). This ensures that a search for "March 2026" doesn't miss any records due to a typo
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/DC%20finale%20Date%20value.png)
 
 ## Dropping the row column and checking our finale cleaned Dataset
 ### During the cleaning process, I used extra "helper columns" (like row numbers) to find mistakes. Now that the data is perfect, I deleted those tools to keep the dataset clean, lightweight, and ready for use in a report or dashboard
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/DC%20Droping%20the%20row%20column%20and%20cheking%20our%20final%20cleaned%20Dataset.png)
