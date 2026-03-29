@@ -1,8 +1,10 @@
 #        My Journey In the Boycode 4.0 Data analysis Class
 
-## I'm Grateful to Mr Edu Ibrahim Olamilekan a.k.a Drollazz for taking through this journey and making it easy for us 🙏❤️
-This portfolio showcases my data analysis work across three platforms, progressing from data cleaning and formula-based analysis in Excel spreadsheets to building interactive dashboards On PowerBi and querying relational databases on SQL.
-## Scroll down read through You will love it 
+## This portfolio showcases my data analysis Journey across three platforms, progressing from data cleaning and formula-based analysis in Excel spreadsheets to building interactive dashboards On PowerBi and querying relational databases on SQL.
+
+### I would like to express my deepest gratitude to my tutor, Mr. Edu Ibrahim Olamilekan (a.k.a Drollazz).
+Thank you for your patience, expert guidance, and for making the complex world of Data Analytics so accessible. This journey was made possible because of your dedication to our growth. I am truly grateful for the skills I've gained under your mentorship. 🙏❤️
+## Scroll down read through and also use the drop down in the Table of content for breakdown
 
 
 #        TABLE OF CONTENT
@@ -92,13 +94,20 @@ This portfolio showcases my data analysis work across three platforms, progressi
 - **Remove empty columns:** Dropping unused fields.
 </details>
 
-
-## Project Overview
 ## Objective 
-## Tools & Techniques
-## Repository Workflow
+The goal of this repository is to document my end-to-end data analytics journey, transitioning from raw data to actionable business insights under the guidance of my tutor, Mr Edu Ibrahim Olamilekan. I achieved this by mastering a three-pillar technical workflow:
 
-## From Excel -> PowerBI -> SQL 
+Excel ➔ SQL  ➔ Power BI
+
+## Tools & Techniques
+
+| Tool | Application & Focus |
+| :--- | :--- |
+| **Excel** | Data cleaning, pivot tables, and creating interactive Dashboards. |
+| **Power BI** | Advanced Data Modeling and majorly for high-level Visualization. |
+| **SQL** | Database management, complex querying, and technical Data cleaning. |
+
+## IMAGES AND BREIF EXPLANATION¬ 
 
 ## EXCEL:
 ### CELL STYLE ASSIGNMENT 
