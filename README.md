@@ -1,6 +1,6 @@
 #        My Journey In the Boycode 4.0 Data analysis Class
 
-## I'm Grateful to Mr Drollazz for taking through this journey and making it easy for us 🙏❤️
+## I'm Grateful to Mr Edu Ibrahim Olamilekan a.k.a Drollazz for taking through this journey and making it easy for us 🙏❤️
 This portfolio showcases my data analysis work across three platforms, progressing from data cleaning and formula-based analysis in Excel spreadsheets to building interactive dashboards On PowerBi and querying relational databases on SQL.
 ## Scroll down read through You will love it 
 
