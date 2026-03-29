@@ -110,6 +110,37 @@ Excel ➔ SQL  ➔ Power BI
 ## IMAGES AND BREIF EXPLANATION¬ 
 
 ## EXCEL:
+
+### Number Formatting
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Number%20Formating.png)
+
+### Counting Values with Count function
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Counting%20Value%20with%20the%20COUNT%20function%20.png)
+
+### Calculating with sum function
+![]()
+
+### Format Painting
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Format%20painter.png)
+
+### Formulas and function
+![]()
+
+### Using Min and Max
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using%20MIN%20and%20MAX.png)
+
+### Date and time formatting
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Date%20and%20time%20format.png)
+
+### Using Name Ranges in Calculation 
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using%20Named%20Ranges%20in%20Calculations.png)
+
+### Flash fill
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Flash%20Fill.png)
+
+### Error Handling
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Error%20Handling.png)
+
 ### CELL STYLE ASSIGNMENT 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Cell%20style%20assignment.png)
 
