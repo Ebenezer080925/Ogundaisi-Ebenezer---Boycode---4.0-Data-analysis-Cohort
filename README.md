@@ -418,3 +418,58 @@ https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analys
 ## STORED PROCEDURES
 ### A practical implementation of automation. Here, I created the large_salaries procedure to encapsulate a specific query logic, which can now be executed instantly with a simple CALL command.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/STORED%20PROCEDURES%201.png)
+
+## Data Cleaning
+
+## Data cleaning and duplicate creation
+###
+![]()
+
+## Data Cleaning inserting into duplicate
+###
+![]()
+
+## Checking Duplicate row
+###
+![]()
+
+## Checking the row with duplipcate value 
+###
+![]()
+
+## Adding row_number
+###
+![]()
+
+## Removing the duplicate row
+###
+![]()
+
+##  Trimming the company column
+###
+![]()
+
+## Different name for same industry
+###
+![]()
+
+##  Trimming removing the "." in after United state
+###
+![]()
+
+## Error with Date
+###
+![]()
+
+## Convert date column to date
+## Final Date value
+###
+![]()
+
+## Finale Date Value 
+###
+![]()
+
+## Dropping the row column and checking our finale cleaned Dataset
+###
+![]()
