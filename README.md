@@ -130,39 +130,49 @@ SUMIF is a function that adds the values in a range that meet a single criteria 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Calculating%20with%20the%20sum%20function.png)
 
 ### Format Painting
+Format Painter (in Excel, Word, etc.) is a tool that lets you copy the appearance of something and apply it to something else.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Format%20painter.png)
 
 ### Formulas and function
+There are some major formulas which are ADDITION"+", SUBTRACTION"-", MULTIPLICATION"*", DIVISION"/",...... for the calculations that are require multiple formulas so you follow a specific arrangment when calculating BODMAS(Bracket, Of, Division Multiplication, Addition, Subtraction) and PIDMAS(parenthesis,Indceis,Division, Multiplication, Addition, Subtraction)
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/formulas%20and%20function.png)
 
 ### Using Min and Max
+The Max and Min is use for checking the maximum and minimum value in a column 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using%20MIN%20and%20MAX.png)
 
 ### Date and time formatting
+Date and time formatting is a way of representing your Date and time in the way you like. e.g Date, long date, short date, e.t.c
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Date%20and%20time%20format.png)
 
 ### Using Name Ranges in Calculation 
-![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using%20Named%20Ranges%20in%20Calculations.png)
+Name Ranges are descriptive name assigned to a cell or a range of cells.
+Instead of writing =SUM(E4:E17), you name that range "Runtimes" and write =SUM(Total)
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using%20Name%20Ranges%20in%20Calculation%202.png)
 
 ### Flash fill
+Flash Fill is like a "mind-reading" tool in Excel and Google Sheets. It is a special feature that senses patterns in your data and automatically fills in the rest of the column for you.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Flash%20Fill.png)
 
 ### Error Handling
+Error Handling is the process of anticipating, detecting, and resolving mistakes in your formulas
+When a formula can't calculate correctly, Excel or Google Sheets will throw an "Error Code" (like #VALUE! or #N/A). Error handling helps you replace those ugly codes with friendly messages or alternative calculations
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Error%20Handling.png)
 
-### CELL STYLE ASSIGNMENT 
-![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Cell%20style%20assignment.png)
+### CELL STYLE 
+A "Cell Style" is a predefined set of formatting characteristics—such as fonts, font sizes, number formats, cell borders, and cell shading—that you can apply to a cell all at once.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Cell%20style%202.png)
 
-### COUNTROL DATA INPUT ASSIGNMENT
+### CONTROL DATA INPUT 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Countrol%20Data%20Input%20Assignment.png)
 
-### BASIC LOGICAL FUNCTION ASSIGNMENT
+### BASIC LOGICAL FUNCTION 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Basic%20Logical%20function%20Assignment.png)
 
-### LOGICAL FUNCTION ASSIGNMENT
+### LOGICAL FUNCTION 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Logical%20function%20Assignment.png)
 
-### IF FUNCTIONS ASSIGNMENT
+### IF FUNCTIONS 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/if%20function%20assignment.png)
 
 ### NESTED IF ASSIGNMENT 
