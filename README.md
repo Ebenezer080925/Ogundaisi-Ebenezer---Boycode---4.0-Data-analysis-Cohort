@@ -162,6 +162,16 @@ Excel ➔ SQL  ➔ Power BI
 ### COUNTIF(S) and SUMIF(S) Assignment 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/COUNTIF(S)%20and%20SUMIF(S)%20Assignment.png)
 
+### Data for the VLOOKUP
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/VLOOKUP%20Data.png)
+
+### VLOOKUP-exact-match Description
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/VLOOKUP-exact-match%20Description.png)
+
+### VLOOKUP-exact-match Unit price
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/VLOOKUP-exact-match%20Unit%20Price.png)
+
+
 # ------------------------------------------------------------------------------
 
 ## POWER BI:
