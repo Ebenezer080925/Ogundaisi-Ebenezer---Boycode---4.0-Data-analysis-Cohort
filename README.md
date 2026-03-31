@@ -111,13 +111,22 @@ Excel ➔ SQL  ➔ Power BI
 
 ## EXCEL:
 
-### Number Formatting
+### Number Formatting 
+Number formatting is the actual outfit like design you put on a number in a cell it can be adding a it can be in form of converting the number from ordinary number to CURRENCY, PERCENTAGE, SPECIFIC TIME, DATE, e.t.c
+STEPS:
+-Click on the cell you wanr to edit 
+
+-Under the home tab click on GENERAL 
+
+-Chose the format of choioce
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Number%20Formating.png)
 
 ### Counting Values with Count function
+The COUNT function only counts cells that contain numbers. It ignores cells with text, icons, or empty spaces 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Counting%20Value%20with%20the%20COUNT%20function%20.png)
 
 ### Calculating with sum function
+SUMIF is a function that adds the values in a range that meet a single criteria you specify.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Calculating%20with%20the%20sum%20function.png)
 
 ### Format Painting
