@@ -225,6 +225,8 @@ VLOOKUP stands for Vertical Lookup. It is a tool that tells your spreadsheet: "G
 
 
 ### Using-Index-match
+INDEX-MATCH is a combination of two separate Excel functions used together to perform a more flexible and powerful lookup than the traditional VLOOKUP.
+syntax =INDEX(\text{column\_to\_return}, MATCH(\text{lookup\_value}, \text{column\_to\_search}, 0))
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using-Index%20-match.png)
 
 
