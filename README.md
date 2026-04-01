@@ -113,6 +113,7 @@ Excel ➔ SQL  ➔ Power BI
 
 ### Number Formatting 
 Number formatting is the actual outfit like design you put on a number in a cell it can be adding a it can be in form of converting the number from ordinary number to CURRENCY, PERCENTAGE, SPECIFIC TIME, DATE, e.t.c
+
 STEPS:
 -Click on the cell you wanr to edit 
 
@@ -164,31 +165,64 @@ A "Cell Style" is a predefined set of formatting characteristics—such as fonts
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Cell%20style%202.png)
 
 ### CONTROL DATA INPUT 
+
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Countrol%20Data%20Input%20Assignment.png)
 
 ### BASIC LOGICAL FUNCTION 
+Basic Logi function are functions that allows us to ask a comparision question that give us the response TRUE/FALSE or what we want 
+
+=IF(B5>$G$5,True,False)
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Basic%20Logical%20function%20Assignment.png)
 
 ### LOGICAL FUNCTION 
+logical functions are the "decision-makers" of a spreadsheet or programming language. They evaluate a situation and return a result—usually TRUE or FALSE—based on whether a specific condition is met.
+
+-IF-Function:	Checks if a condition is met and returns one value if true, another if false. e.g =IF(B4>=85, "Pass", "Fail")
+
+-And-FUNCTION: Returns TRUE only if all conditions provided are true.  =IF(AND(C23>=65, B23>=75), "Pass", "Fail")
+
+-OR-FUNCTION: Returns TRUE if at least one of the conditions is true. =IF(OR(B33>=75, C33>=65), "Pass", "Fail")
+
+-NOT-FUNCTION: Reverses the logic (turns TRUE into FALSE and vice versa). 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Logical%20function%20Assignment.png)
 
 ### IF FUNCTIONS 
+IF function is a logical tool that tells your spreadsheet: "Check if this condition is met. If it is, do one thing; if it isn't, do something else.
+
+=IF(F4>$K$3,$K$4*F4,"-") Shipping column
+
+=IF(F4>$K$3,($K$4*F4)+F4,F4) Total column
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/if%20function%20assignment.png)
 
 ### NESTED IF ASSIGNMENT 
+A Nested IF is simply an IF function placed inside another IF function.Also does the work of IFS 
+
+=IF(G2=$J$4, $K$4, IF(G2=$J$5, $K$5, IF(G2=$J$6, $K$6, IF(G2=$J$7, $K$7, IF(G2=$J$8, "0", "No bonus")))))
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Nested%20if%20assignment.png)
 
 ### COUNTIF(S) and SUMIF(S) Assignment 
+COUNTIF(S):Counts how many times a value appears in a list, but only if it meets one or more specific conditions.
+=COUNTIFS(Criteria_Range1, "Condition1", Criteria_Range2, "Condition2", ...)
+
+SUMIF(S): Adds up numbers in a range, but only if they meet one or more specific conditions.
+=SUMIFS(Range_to_Add, Criteria_Range1, "Condition1", ...)
+
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/COUNTIF(S)%20and%20SUMIF(S)%20Assignment.png)
 
 ### Data for the VLOOKUP
+VLOOKUP stands for Vertical Lookup. It is a tool that tells your spreadsheet: "Go find this specific piece of information in the first column of a table, and then tell me what is in the same row but a different column.
+
+- =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup]), For the range lookup FALSE meant it must be the exact value the TRUE mean approximate
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/VLOOKUP%20Data.png)
 
 ### VLOOKUP-exact-match Description
+=VLOOKUP(A5, 'Parts Catalogue'!$A$3:$C$87, 2, FALSE)
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/VLOOKUP-exact-match%20Description.png)
 
 ### VLOOKUP-exact-match Unit price
+=VLOOKUP(A5, 'Parts Catalogue'!$A$3:$C$87, 3, FALSE)
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/VLOOKUP-exact-match%20Unit%20Price.png)
+
 
 ### Using-Index-match
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using-Index%20-match.png)
