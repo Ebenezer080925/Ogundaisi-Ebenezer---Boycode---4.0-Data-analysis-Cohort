@@ -190,6 +190,9 @@ A "Cell Style" is a predefined set of formatting characteristics—such as fonts
 ### VLOOKUP-exact-match Unit price
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/VLOOKUP-exact-match%20Unit%20Price.png)
 
+### Using-Index-match
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using-Index%20-match.png)
+
 
 # ------------------------------------------------------------------------------
 
