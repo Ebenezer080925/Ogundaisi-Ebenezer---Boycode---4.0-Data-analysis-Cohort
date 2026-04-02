@@ -229,6 +229,71 @@ INDEX-MATCH is a combination of two separate Excel functions used together to pe
 syntax =INDEX(\text{column\_to\_return}, MATCH(\text{lookup\_value}, \text{column\_to\_search}, 0))
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using-Index%20-match.png)
 
+### Sorting on multiple Column BEFORE SORT
+Sorting on multiple columns (often called multi-level sorting) is a method of organizing data hierarchically using two or more criteria. It involves arranging a dataset by a primary attribute first, and then using one or more secondary attributes as "tie-breakers" to determine the final order of items that share the exact same primary value.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Sorting%20on%20multiple%20column%20BF.png)
+
+### Sorting on multiple Column AFTER SORT 
+=SORT(range, sort_column1, is_ascending1, [sort_column2, is_ascending2, ...])
+
+=SORT(A4:I18,G4:G18,TRUE,C4:C18,TRUE) the TRUE tells the sheet to sort them in Ascending other 
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Sorting%20on%20multiple%20column%20AF.png)
+
+### Sorting Using a Custom List BEFORE SORT
+Sorting using a custom list means organizing your data based on your own specific, predefined order, rather than using the standard alphabetical (A to Z) or numerical (1 to 10) rules.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Sorting%20using%20a%20custom%20list%20BF.png)
+
+### Sorting Using a custom List AFTER SORT 
+=SORT(Data_Range, MATCH(Column_to_Sort, {"First", "Second", "Third"}, 0), TRUE)
+
+=SORT(A4:I18, MATCH(A4:A18, {"Mr", "Mrs", "Miss"}, 0), TRUE)
+
+{"Mr", "Mrs", "Miss"}: This is your custom rulebook. The formula assigns a hidden "1" to every Mr, a "2" to every Mrs, and a "3" to every Miss.
+
+0: This simply forces the formula to look for exact word matches.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/sorting%20using%20a%20column%20list%20AF.png)
+
+### Sorting Using the SORT Function BEFORE SORT
+The SORT function is a formula that takes a messy block of data and automatically creates a neatly organized, sorted copy of it in a new location.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Sorting%20Using%20the%20SORT%20Function%20BF.png)
+
+### Sorting Using the SORT Function AFTER SORT
+=SORT(range, sort_column, is_ascending)
+
+=SORT(A5:D29, 4, FALSE) Sorting by Mark
+
+=SORT(A5:D29, 3, TRUE, 4, FALSE) Sort by Exam Subject, then by Highest Mark
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Sorting%20Using%20the%20SORT%20Function%20AF.png)
+
+### Extracting a Unique List using Unique Function
+The UNIQUE function is a tool that looks through a list of data, automatically removes any duplicate entries, and gives you back a clean list where every item appears exactly once.
+We also use the sort function with the Unique
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Extract%20Unique%20Values%20using%20the%20UNIQUE%20Function.png)
+
+### Filtering Using the FILTER Function
+A formula that looks at the master list and extracts only the rows that match one specific rule, giving you a clean mini-list. ( pulling only the "English" students).
+
+=FILTER(Range, Rule)
+
+=FILTER(A5:D29, C5:C29=F5)
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Filtering%20Using%20the%20FILTERTING%20Function.png)
+
+### Filtering Multiple Criteria 
+Using the same FILTER function but giving it two or more rules separated by commas. The formula will only extract a row if it meets all the rules at the exact same time. ( finding students who take "English" AND are in the "West" block).
+
+=FILTER(Range, Rule1, Rule2)
+
+=FILTER(A5:D29, C5:C29=F5, A5:A29=F8)
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Filtering%20Multiple%20Criteria.png)
+
+### Filtering Filter and Sorting
+The inside FILTER does the first job of extracting the specific data you asked for. Then, the outside SORT does the second job of arranging that newly extracted list into a logical order, like highest to lowest. (finding the English/West/>50 students, and ordering them by who got the best grade).
+
+=SORT(FILTER(Range, Rule1, Rule2), Sort_Column_Number, TRUE/FALSE)
+
+=SORT(FILTER(A5:D29, C5:C29=F5, A5:A29=F8, D5:D29>50), 4, FALSE)
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Filtering%20FILTER%20and%20SORT.png)
+
 
 # ------------------------------------------------------------------------------
 
