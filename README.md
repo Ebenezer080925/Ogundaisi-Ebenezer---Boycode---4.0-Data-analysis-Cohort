@@ -294,6 +294,33 @@ The inside FILTER does the first job of extracting the specific data you asked f
 =SORT(FILTER(A5:D29, C5:C29=F5, A5:A29=F8, D5:D29>50), 4, FALSE)
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Filtering%20FILTER%20and%20SORT.png)
 
+### How Dates and Times are stored in Excel
+a DateTime Serial Number is a continuous, floating-point numeric scale used to represent both dates and times. Instead of storing complex calendar data (like "January" or "Tuesday"), the computer stores a single numeric value where the integers represent whole days passed since a foundational starting point, and the decimal fractions represent the precise time elapsed within the current day.
+
+0.0 = 12:00 AM (Midnight, the very start of the day)
+
+0.25 = 6:00 AM (25% of the day is over)
+
+0.5 = 12:00 PM (Noon, exactly 50% or half the day)
+
+0.75 = 6:00 PM (75% of the day is over)
+Steps: Highlight the column you want to adjust - Look at the Home ribbon - Go to General - Then select the date format - Long OR Short 
+![]()
+
+### Date Functions
+Date Functions are formulas that allow you to take a complete date and slice it into individual pieces (like extracting just the year or the day), OR take scattered numbers and glue them back together into a single, functional spreadsheet date.
+
+![]()
+
+### Time Functions
+Time Extraction Functions (HOUR, MINUTE, SECOND) They allow you to pull out just one specific piece of that time—either the hour, the minute, or the second—and display it as a plain, standalone number.
+=HOUR()
+
+=MINUTE()
+
+=SECOND()
+![]()
+
 
 # ------------------------------------------------------------------------------
 
