@@ -305,12 +305,13 @@ a DateTime Serial Number is a continuous, floating-point numeric scale used to r
 
 0.75 = 6:00 PM (75% of the day is over)
 Steps: Highlight the column you want to adjust - Look at the Home ribbon - Go to General - Then select the date format - Long OR Short 
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/How%20Dates%20and%20Times%20are%20stored%20in%20Excel.png)
 
 ### Date Functions
 Date Functions are formulas that allow you to take a complete date and slice it into individual pieces (like extracting just the year or the day), OR take scattered numbers and glue them back together into a single, functional spreadsheet date.
+Syntax		 =DAY()	 =TEXT(A4, "dddd")	 =MONTH()	 =TEXT(A4, "mmmm")	 =YEAR()	 =WEEKDAY   =DATE(K4, L4, M4)  =TIME(K12, L12, M12)
 
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Date%20Function.png)
 
 ### Time Functions
 Time Extraction Functions (HOUR, MINUTE, SECOND) They allow you to pull out just one specific piece of that time—either the hour, the minute, or the second—and display it as a plain, standalone number.
@@ -319,7 +320,7 @@ Time Extraction Functions (HOUR, MINUTE, SECOND) They allow you to pull out just
 =MINUTE()
 
 =SECOND()
-![]()
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Time%20Function.png)
 
 
 # ------------------------------------------------------------------------------
