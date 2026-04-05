@@ -119,6 +119,9 @@ STEPS:
 
 -Under the home tab click on GENERAL 
 
+### Formulas and function
+There are some major formulas which are ADDITION"+", SUBTRACTION"-", MULTIPLICATION"*", DIVISION"/",...... for the calculations that are require multiple formulas so you follow a specific arrangment when calculating BODMAS(Bracket, Of, Division Multiplication, Addition, Subtraction) and PIDMAS(parenthesis,Indceis,Division, Multiplication, Addition, Subtraction)
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/formulas%20and%20function.png)
 -Chose the format of choioce
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Number%20Formating.png)
 
@@ -134,9 +137,7 @@ SUMIF is a function that adds the values in a range that meet a single criteria 
 Format Painter (in Excel, Word, etc.) is a tool that lets you copy the appearance of something and apply it to something else.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Format%20painter.png)
 
-### Formulas and function
-There are some major formulas which are ADDITION"+", SUBTRACTION"-", MULTIPLICATION"*", DIVISION"/",...... for the calculations that are require multiple formulas so you follow a specific arrangment when calculating BODMAS(Bracket, Of, Division Multiplication, Addition, Subtraction) and PIDMAS(parenthesis,Indceis,Division, Multiplication, Addition, Subtraction)
-![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/formulas%20and%20function.png)
+
 
 ### Using Min and Max
 The Max and Min is use for checking the maximum and minimum value in a column 
@@ -317,18 +318,20 @@ Syntax		 =DAY()	 =TEXT(A4, "dddd")	 =MONTH()	 =TEXT(A4, "mmmm")	 =YEAR()	 =WEEKD
 Time Extraction Functions (HOUR, MINUTE, SECOND) They allow you to pull out just one specific piece of that time—either the hour, the minute, or the second—and display it as a plain, standalone number.
 =HOUR()
 
-=MINUTE()
+=MINUTE() 
 
 =SECOND()
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Time%20Function.png)
 
-
+### Billionaire Dasboard Project 
+this Project was a assignment gievn to us by our tutor after the class which he also create a sample, the Dashboard is a short overview discription of the Billionaire in 2025 show the total amount of money $7,040,400 from 475 people which average age is 67.24 from the analysis i made. we also have a breakddown showing the the top 10  richest people with barneld Amault having the highest which is over 200 million. we also have a bar chart showing the cartegories with there networth with Fashion and retail having the highest amount which is over a billionaire. 
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Billionaires%20dashboard.png)
 # ------------------------------------------------------------------------------
 
 ## POWER BI:
 ### HR DASHBOARD 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/HR%20Dashboard.jpg)
-
+ 
 # ------------------------------------------------------------------------------
 
 ## SQL(Postgre)
