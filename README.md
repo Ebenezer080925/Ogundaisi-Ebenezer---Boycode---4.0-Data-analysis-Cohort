@@ -12,9 +12,7 @@ Thank you for your patience, expert guidance, and for making the complex world o
 ## EXCEL
 <details>
   <summary><b>1. Excel Basics & Data Formatting</b></summary>
-  <br>
-
-    This section covers the foundational skills for cleaning and preparing a spreadsheet.
+  This section covers the foundational skills for cleaning and preparing a spreadsheet.
 
 - **Number Formatting**
 - **Date and Time Formatting**
@@ -24,12 +22,72 @@ Thank you for your patience, expert guidance, and for making the complex world o
 
 <details>
   <summary><b>2. Data Entry & Validation</b></summary>
-  <br>
+  Tools used to automate data entry and prevent errors.
   
-    Tools used to automate data entry and prevent errors.
-
 - **Flash Fill**
 - **Control Data Input**
+</details>
+
+<details>
+  <summary><b>3. Core Formulas & Arithmetic</b></summary>
+  The building blocks of Excel calculations.
+  
+- **Formulas and Function (BODMAS/PIDMAS)**
+- **Using Name Ranges in Calculation**
+- **Counting Values with COUNT Function**
+- **Calculating with SUM Function**
+- **Using MIN and MAX**
+- **Error Handling**
+</details>
+
+<details>
+  <summary><b>4. Date & Time Intelligence</b></summary>
+  Understanding how Excel processes time-based data.
+  
+- **How Dates and Times are stored in Excel**
+- **Date Functions**
+- **Time Functions**
+</details>
+
+<details>
+  <summary><b>5. Logical Functions & Conditional Logic</b></summary>
+  Applying business rules and decision-making to your data.
+  
+- **Basic Logical Function**
+- **Logical Function (AND, OR, NOT)**
+- **IF Functions**
+- **Nested IF Assignment**
+</details>
+
+<details>
+  <summary><b>6. Advanced Aggregation & Lookups</b></summary>
+  Extracting and summarizing specific data points from larger tables.
+  
+- **COUNTIF(S) and SUMIF(S) Assignment**
+- **Data for the VLOOKUP**
+- **VLOOKUP-exact-match Description**
+- **VLOOKUP-exact-match Unit price**
+- **Using-Index-Match**
+</details>
+
+<details>
+  <summary><b>7.Dynamic Arrays (Sorting & Filtering)</b></summary>
+  Using modern Excel functions to dynamically manipulate data arrays.
+  
+- **Sorting Using the SORT Function (Before & After)**
+- **Sorting on Multiple Columns (Before & After)**
+- **Sorting Using a Custom List (Before & After)**
+- **Filtering Using the FILTER Function**
+- **Filtering Multiple Criteria**
+- **Combining FILTER and SORT**
+- **Extracting a Unique List using UNIQUE Function**
+</details>
+
+<details>
+  <summary><b>8. Data Visualization & Reporting</b></summary>
+  The final project: presenting insights.
+  
+ - **Billionaire Dashboard Project**    
 </details>
 
 ## POWER BI
