@@ -10,6 +10,28 @@ Thank you for your patience, expert guidance, and for making the complex world o
 #        TABLE OF CONTENT
 
 ## EXCEL
+<details>
+  <summary><b>1. Excel Basics & Data Formatting</b></summary>
+  <br>
+
+    This section covers the foundational skills for cleaning and preparing a spreadsheet.
+
+- **Number Formatting**
+- **Date and Time Formatting**
+- **Format Painting**
+- **Cell Style**
+</details>
+
+<details>
+  <summary><b>2. Data Entry & Validation</b></summary>
+  <br>
+  
+    Tools used to automate data entry and prevent errors.
+
+- **Flash Fill**
+- **Control Data Input**
+</details>
+
 ## POWER BI
 
 ## SQL (Structured Query Language)
@@ -110,6 +132,7 @@ Excel ➔ SQL  ➔ Power BI
 ## IMAGES AND BREIF EXPLANATION¬ 
 
 ## EXCEL:
+Welcome to the Excel section of my portfolio! This is where my data analytics journey truly began. Here, I've documented my step-by-step progression—starting from basic data cleaning and formatting, all the way up to complex logical functions, dynamic arrays, and interactive dashboards THE BILLIONAIRE DASHBOARD. Feel free to scroll through to see how I learned to turn messy data into clear insights. 
 
 ### Number Formatting 
 Number formatting is the actual outfit like design you put on a number in a cell it can be adding a it can be in form of converting the number from ordinary number to CURRENCY, PERCENTAGE, SPECIFIC TIME, DATE, e.t.c
@@ -119,11 +142,36 @@ STEPS:
 
 -Under the home tab click on GENERAL 
 
+-Chose the format of choioce
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Number%20Formating.png)
+
+### Date and time formatting
+Date and time formatting is a way of representing your Date and time in the way you like. e.g Date, long date, short date, e.t.c
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Date%20and%20time%20format.png)
+
+### Format Painting
+Format Painter (in Excel, Word, etc.) is a tool that lets you copy the appearance of something and apply it to something else.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Format%20painter.png)
+
+### CELL STYLE 
+A "Cell Style" is a predefined set of formatting characteristics—such as fonts, font sizes, number formats, cell borders, and cell shading—that you can apply to a cell all at once.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Cell%20style%202.png)
+
+### Flash fill
+Flash Fill is like a "mind-reading" tool in Excel and Google Sheets. It is a special feature that senses patterns in your data and automatically fills in the rest of the column for you.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Flash%20Fill.png)
+
+### CONTROL DATA INPUT 
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Countrol%20Data%20Input%20Assignment.png)
+
 ### Formulas and function
 There are some major formulas which are ADDITION"+", SUBTRACTION"-", MULTIPLICATION"*", DIVISION"/",...... for the calculations that are require multiple formulas so you follow a specific arrangment when calculating BODMAS(Bracket, Of, Division Multiplication, Addition, Subtraction) and PIDMAS(parenthesis,Indceis,Division, Multiplication, Addition, Subtraction)
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/formulas%20and%20function.png)
--Chose the format of choioce
-![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Number%20Formating.png)
+
+### Using Name Ranges in Calculation 
+Name Ranges are descriptive name assigned to a cell or a range of cells.
+Instead of writing =SUM(E4:E17), you name that range "Runtimes" and write =SUM(Total)
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using%20Name%20Ranges%20in%20Calculation%202.png)
 
 ### Counting Values with Count function
 The COUNT function only counts cells that contain numbers. It ignores cells with text, icons, or empty spaces 
@@ -133,41 +181,14 @@ The COUNT function only counts cells that contain numbers. It ignores cells with
 SUMIF is a function that adds the values in a range that meet a single criteria you specify.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Calculating%20with%20the%20sum%20function.png)
 
-### Format Painting
-Format Painter (in Excel, Word, etc.) is a tool that lets you copy the appearance of something and apply it to something else.
-![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Format%20painter.png)
-
-
-
 ### Using Min and Max
 The Max and Min is use for checking the maximum and minimum value in a column 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using%20MIN%20and%20MAX.png)
-
-### Date and time formatting
-Date and time formatting is a way of representing your Date and time in the way you like. e.g Date, long date, short date, e.t.c
-![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Date%20and%20time%20format.png)
-
-### Using Name Ranges in Calculation 
-Name Ranges are descriptive name assigned to a cell or a range of cells.
-Instead of writing =SUM(E4:E17), you name that range "Runtimes" and write =SUM(Total)
-![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Using%20Name%20Ranges%20in%20Calculation%202.png)
-
-### Flash fill
-Flash Fill is like a "mind-reading" tool in Excel and Google Sheets. It is a special feature that senses patterns in your data and automatically fills in the rest of the column for you.
-![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Flash%20Fill.png)
 
 ### Error Handling
 Error Handling is the process of anticipating, detecting, and resolving mistakes in your formulas
 When a formula can't calculate correctly, Excel or Google Sheets will throw an "Error Code" (like #VALUE! or #N/A). Error handling helps you replace those ugly codes with friendly messages or alternative calculations
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Error%20Handling.png)
-
-### CELL STYLE 
-A "Cell Style" is a predefined set of formatting characteristics—such as fonts, font sizes, number formats, cell borders, and cell shading—that you can apply to a cell all at once.
-![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Cell%20style%202.png)
-
-### CONTROL DATA INPUT 
-
-![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Countrol%20Data%20Input%20Assignment.png)
 
 ### BASIC LOGICAL FUNCTION 
 Basic Logi function are functions that allows us to ask a comparision question that give us the response TRUE/FALSE or what we want 
@@ -195,13 +216,13 @@ IF function is a logical tool that tells your spreadsheet: "Check if this condit
 =IF(F4>$K$3,($K$4*F4)+F4,F4) Total column
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/if%20function%20assignment.png)
 
-### NESTED IF ASSIGNMENT 
+### NESTED IF 
 A Nested IF is simply an IF function placed inside another IF function.Also does the work of IFS 
 
 =IF(G2=$J$4, $K$4, IF(G2=$J$5, $K$5, IF(G2=$J$6, $K$6, IF(G2=$J$7, $K$7, IF(G2=$J$8, "0", "No bonus")))))
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Nested%20if%20assignment.png)
 
-### COUNTIF(S) and SUMIF(S) Assignment 
+### COUNTIF(S) and SUMIF(S) 
 COUNTIF(S):Counts how many times a value appears in a list, but only if it meets one or more specific conditions.
 =COUNTIFS(Criteria_Range1, "Condition1", Criteria_Range2, "Condition2", ...)
 
