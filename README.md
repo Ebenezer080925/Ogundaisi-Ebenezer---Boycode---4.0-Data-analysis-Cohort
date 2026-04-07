@@ -467,7 +467,21 @@ unpivoting other column apart from the first 2 column
 Spliting by delimeter "$" the OrderID and the Order date to have seperate column for them and rename the column header
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/6_Remove%20duplicate%20row.png)
 
+### Third Data cleaning -Jumbled-up-Customers-Details
+The dataset consist of data that each column have been merge together and the name of the column are in between 
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Before%20cleaning%203.png)
 
+### Spliting in between
+
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Split%20name%20and%20address.png)
+
+### Other columns 
+
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Other%20column.png)
+
+### then we rename the remaining column and remove the main column
+
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Final%20cleaned%20dataset.png)
 
 ### HR DASHBOARD 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/HR%20Dashboard.jpg)
