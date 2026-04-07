@@ -408,6 +408,38 @@ this Project was a assignment gievn to us by our tutor after the class which he 
 # ------------------------------------------------------------------------------
 
 ## POWER BI:
+
+### STEP 1:Before cleaning 
+This is the dataset before cleaning there are alot of issues like looking at the shipping mode align in the row instead of forming its own column same has segment, making the table have alot of null value.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Before%20Cleaning%20.png)
+
+### STEP 2:Transformation
+The first steps we made is to tranform the dataset cause we notice some arrangement in the data row being
+where column is and column vice versa  
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/2.After%20transformation.png)
+
+### STEP 3:Filling NULL
+so after transformation we notice that on the column one where we have the shipping mode there null value(meaning there are value that
+is nothing there but can be filled down) so we use the fill to fill the place we have the null valu in the column 1
+NOTE: We are to make first row as header instead of the column1, column2,......
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/3.%20After%20fill.png)
+
+### STEP 4:Unpivot other tables 
+So the next step is to unpivot the the date and the value column so they will be straight 
+we click on the ship mode and segment then right click and unpivot other column
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/4.%20Unpivot%20other%20tables.png)
+
+### STEP 5:Extract by delimeters
+so for the part where we are having "_" and numbers after each date, we have to remove those numbers. instaed of splitting 
+by delimeter and deleting the column we just extract before delimeter and it will give the value before the delimeter 
+and then we save the date datatype has date and the value column as decimal
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/5.Split%20by%20delimeter.png)
+
+### STEP 6:Remove duplicate row
+So the last step is to select all column and remove the duplicate row from the remove row drop down ribbon then we
+can load and do our analysis 
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/6.remove%20duplicate%20rows.png)
+
 ### HR DASHBOARD 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/HR%20Dashboard.jpg)
  
