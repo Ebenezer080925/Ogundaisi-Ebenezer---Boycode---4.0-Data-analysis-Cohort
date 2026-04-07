@@ -409,7 +409,7 @@ this Project was a assignment gievn to us by our tutor after the class which he 
 
 ## POWER BI:
 
-### STEP 1:Before cleaning 
+### Badly-Structured-Sales-Data   STEP 1:Before cleaning 
 This is the dataset before cleaning there are alot of issues like looking at the shipping mode align in the row instead of forming its own column same has segment, making the table have alot of null value.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Before%20Cleaning%20.png)
 
@@ -439,6 +439,35 @@ and then we save the date datatype has date and the value column as decimal
 So the last step is to select all column and remove the duplicate row from the remove row drop down ribbon then we
 can load and do our analysis 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/6.remove%20duplicate%20rows.png)
+
+### 1.Badly-Structured-Sales-Data-4 
+so to clean this dataset we need to move the order date on the row to form the first column then segment to form the second
+column, and shift the order ID from the first column to the third column and the order date 4th column the values in 
+the last column 
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/1_Before%20cleaning%202.png)
+
+### Merge column
+The first thing we did was to merge the first and second column using the $ has delimeter to remove the two null values 
+at the left first row
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/2_Merge%20column.png)
+
+### Transformation 
+Then we do the table transpose and make the first row header
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/3_Transformation.png)
+
+### Fill Down 
+We do the fill down to remove the null values in the Ship mode column
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/4_Fill%20Down.png)
+
+### Split by delimeter
+unpivoting other column apart from the first 2 column
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/5._Split%20by%20delimeter.png)
+
+### Remove duplicate row 
+Spliting by delimeter "$" the OrderID and the Order date to have seperate column for them and rename the column header
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/6_Remove%20duplicate%20row.png)
+
+
 
 ### HR DASHBOARD 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/HR%20Dashboard.jpg)
