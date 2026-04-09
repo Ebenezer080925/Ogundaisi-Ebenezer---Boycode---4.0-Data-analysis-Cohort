@@ -408,7 +408,58 @@ this Project was a assignment gievn to us by our tutor after the class which he 
 # ------------------------------------------------------------------------------
 
 ## POWER BI:
+### -Get Data into Power Query
+Definition: The process of connecting Power BI to a data source (Excel, SQL, Web, etc.) to start the cleaning process.
 
+How it works: You click "Get Data," select your source, and instead of clicking "Load," you click "Transform Data." This opens the Power Query Editor where you can see your data without changing the original file.
+
+### -Append Query
+Definition: Stacking tables on top of each other.
+
+How it works: If you have a sales table for January and another for February with the same columns, Appending "glues" them together into one long table.
+
+### -Merge Query
+Definition: Joining two tables side-by-side based on a matching column (like a VLOOKUP).
+
+How it works: If Table A has "Product ID" and Table B has "Product ID" and "Price," you Merge them so Table A now also shows the Price for every row.
+
+### -Unpivot
+Definition: Turning columns into rows to make data "tall" instead of "wide."
+
+How it works: If you have columns for "2021," "2022," and "2023," Unpivoting turns them into two columns: one called Year and one called Value. This is the most important step for making messy financial sheets (like the one you shared) ready for charts.
+
+### -Pivot
+Definition: The opposite of Unpivot; turning row values into column headers.
+
+How it works: You take a list of dates and values and turn the dates into separate column headers to create a summary view.
+
+### -Group By
+Definition: Aggregating multiple rows into a single summary row.
+
+How it works: If you have 500 rows of individual sales, you can Group By "Store Name" and "Sum" the "Sales" column. The result is a tiny table showing one row per store with their total sales.
+
+### -Add Column
+Definition: Creating brand new data based on what you already have.
+
+How it works: * Custom Column: You write a formula (e.g., [Price] * [Quantity]).
+
+Conditional Column: An "If-Then" logic (e.g., If Sales > 100, then "High", else "Low").
+
+### -Other Transformations
+Split Column: Breaking one column into two (e.g., splitting "First Last Name" by the space).
+
+Fill Down/Up: Filling empty (null) cells with the value from the cell above or below it.
+
+Replace Values: Finding a specific word (like "N/A") and swapping it for something else (like "0").
+
+### -Transpose
+Definition: Rotating your entire table so that your rows become columns and your columns become rows. It is like picking up your table and flipping it on its side.
+
+How it works: Headers become the first column: Your current column names (Column1, Column2, Column3) are discarded, and the data that was in the first row becomes the new first column.
+
+Rows become columns: If you had 20 rows and 3 columns, after a Transpose, you will have 3 rows and 20 columns.
+
+## Data Cleaning
 ### Badly-Structured-Sales-Data   STEP 1:Before cleaning 
 This is the dataset before cleaning there are alot of issues like looking at the shipping mode align in the row instead of forming its own column same has segment, making the table have alot of null value.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Before%20Cleaning%20.png)
