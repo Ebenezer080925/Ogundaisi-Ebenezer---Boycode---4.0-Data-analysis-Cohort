@@ -487,17 +487,17 @@ The dataset consist of data that each column have been merge together and the na
 First image this is the uncleaned image
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Unclead%20Hospital-Data%20image.png)
 
-###
+### ADD COLUMN FROM EXAMPLEs
 First changes made we make the first row as header, then we use the add column from example to split the column whose quantity and value 
 are merged together. We use the ADD COLUMN FROM EXAMPLEs under ADD COLUMN Ribbon by first clicking on the column with the issue and then 
 testing two to five values from the table to conclude what should be done to others and then repeat it to get the second value in the column
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Add%20column%20sample.png)
 
-###
+### ADD COLUMN FROM EXAMPLEs LOOK
 this is the output after the seperation
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Cleaned%20add%20to%20column.png)
 
-###
+### Change in datatype
 Then we changed the datatype for the Quantity and remove all duplicate row in the column
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Final%20Hospital%20cleaaned%20dataset.png)
 
@@ -505,17 +505,17 @@ Then we changed the datatype for the Quantity and remove all duplicate row in th
 First image this is the uncleaned image
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Uncleaned%20Invoices-with-Merged.png)
 
-###
+### Split delimeter by ROW
 First thing we did here is to make the first row header then we made we created a duplicate for the entire dataset to avoid loose of data
 we then delete the amount column focus on the categories column, we used the split by delimeter to separate the the values in each row but
 we advaned the splitting and made it by ROW not COLUMN. And then we repeat the same process for the other column Amount.
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Invoice%20split%20by%20row%20value.png)
 
-###
-Next is to merge the columns togeher so we used the MERGED AS NEW under the Home ribbon making Order ID as our connector, also make sure you cliick the amount  only 
+### Merge using duplicate row as the connector
+Next is to merge the columns togeher so we used the MERGED AS NEW under the Home ribbon making Order ID as our connector, also make sure you click the amount  only 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Merge%20as%20new%20column.png)
 
-###
+### Merge using unique value INDEX
 So we notice we have alot of duplicatae in both the categories and the amount table which the error came from the merge and we have to
 create a new table called index which have its unique ID then we use that one to merge the column 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/New%20Merge%20as%20new%20column.png)
