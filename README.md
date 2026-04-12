@@ -2,7 +2,7 @@
 
 This portfolio showcases my data analysis Journey across three platforms, progressing from data cleaning and formula-based analysis in Excel spreadsheets to building interactive dashboards On PowerBi and querying relational databases on SQL.
 
-### I would like to express my deepest gratitude to my tutor, Mr. Edu Ibrahim Olamilekan (a.k.a Drollazz).
+### I would like to express my deepest gratitude to Madam Precious Eniayekan, my tutor Mr. Edu Ibrahim Olamilekan (a.k.a Drollazz). and the entire Boycode team
 Thank you for your patience, expert guidance, and for making the complex world of Data Analytics so accessible. This journey was made possible because of your dedication to our growth. I am truly grateful for the skills I've gained under your mentorship. 🙏❤️
 ## Scroll down read through and also use the drop down in the Table of content for breakdown
 
