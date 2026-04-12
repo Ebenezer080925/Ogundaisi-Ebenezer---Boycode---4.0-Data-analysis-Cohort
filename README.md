@@ -200,7 +200,7 @@ STEPS:
 
 -Under the home tab click on GENERAL 
 
--Chose the format of choioce
+-Choose the format of choioce
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Number%20Formating.png)
 
 ### Date and time formatting
@@ -405,7 +405,15 @@ Time Extraction Functions (HOUR, MINUTE, SECOND) They allow you to pull out just
 ### Billionaire Dasboard Project 
 this Project was a assignment gievn to us by our tutor after the class which he also create a sample, the Dashboard is a short overview discription of the Billionaire in 2025 show the total amount of money $7,040,400 from 475 people which average age is 67.24 from the analysis i made. we also have a breakddown showing the the top 10  richest people with barneld Amault having the highest which is over 200 million. we also have a bar chart showing the cartegories with there networth with Fashion and retail having the highest amount which is over a billionaire. 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Billionaires%20dashboard.png)
+
 # ------------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 ## POWER BI:
 ### -Get Data into Power Query
@@ -574,11 +582,68 @@ create a new table called index which have its unique ID then we use that one to
 ### Final cleaned invoice data
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Invoice%20remove%20duplicate.png)
 
+### DATA MODELLING
+Data modelling in powerbi is the process of structuring data to make it easier to analyze and gain insight, also to reduce redundancy 
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Sample%20superstore%20dataset.png)
 
+### How to build a Data Model?
+Split the tables into Fact & Dimensions
 
+1.Separate the Reporting Fields into Categories & Values
+
+2.Consider all Value Fields as Fact table Fields
+
+3.Look for hierarchies within the categories.
+
+    a) Consider all Categorical Fields without hierarchies as Fact Table Fields
+
+    b) Consider each Category of hierarchy as Dimension Tables
+
+4.Identify the smallest unit within each Dimension as a Primary Key
+
+5.Replicate all Primary Key Fields in the Fact Table
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Modelling%20Steps%20.png)
+
+### First step after Knowing the Table to split to on POWWER QUERY
+The first step is to right click an duplicate the original table to the number of table you want to create and then rename them to the name you want for each tables 
+
+Then go to HOME RIBBON got to CHOOSE COLUMNS then select the columns you want, then you check the neetness of the Data.
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Csutomer%20Table.png)
+
+### Repeat the same steps for the remaining table 
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Location%20table.png)
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Product%20table.png)
+
+### FOR ORDER TABLES
+Then for the ORDER Table you can check for the PRIMARY KEY column in those other table then add it to the main table it will land there as a FOREIGN KEY then Apply and Load
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/All%20Orders.png)
+
+### Image after the Redundancy
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Image%20after%20the%20Redundancy.png)
+
+### Many to many error
+So notice that the Location and the product are not connected to the All other table. we then do it manually, when trying to connect it the cardinality is showing Many to Many
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Many%20to%20Many%20cardinality.png)
+
+### To clear the error and then merge table
+ Many to many relationship is due to the duplicate of city names in the city column and some other duplicate in other column so to solve this we need to merge column. For example we are merging the city and postal code to know the city with their specific postal code and to be able to connect the two tables 
+
+So we click on the city column and the postal code table and then right click and merge the column. we do this for both tables and then join again  
+
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Merge%20City%20and%20postal%20code%20.png)
+
+### Final connection
+Looking at the product table we also have the same issue  so i repeated the process merging the ProductID and the ProductName together and we got our final connection
+![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/Final%20Connection.png)
 
 ### HR DASHBOARD 
+This is my final project after the PowerBi classes 
 ![](https://github.com/Ebenezer080925/Ogundaisi-Ebenezer---Boycode---4.0-Data-analysis-Cohort/blob/main/HR%20Dashboard.jpg)
+The HR Dashboard shows a total workforce of 1,470 employees with a 60% male and 40% female distribution, translating to 882 men and 588 women. Currently, 72 staff members are due for promotion while 1,398 are not, with the highest concentration of those eligible having served approximately 20 to 22 years. Distance analysis reveals that 37.86% of staff live "Very far" from the office, while job level data indicates that Level 2 and Level 1 contain the highest number of employees. Furthermore, the workforce remains stable with 91.4% classified as active workers compared to 8.6% slated for retrenchment.
+
+
+
+
  
 # ------------------------------------------------------------------------------
 
