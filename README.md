@@ -92,6 +92,73 @@ Thank you for your patience, expert guidance, and for making the complex world o
 
 ## POWER BI
 
+<details>
+<summary><b>1. Power Query Fundamentals</b></summary>
+
+- **Get Data into Power Query**
+- **Append Query**
+- **Merge Query**
+- **Unpivot**
+- **Pivot**
+- **Group By**
+- **Add Column**
+- **Other Transformations**
+- **Transpose**
+</details>
+
+<details>
+<summary><b>2. Applied Data Cleaning Projects</b></summary>
+Hands-on examples of transforming dirty data into structured tables.
+
+- **Project 1: Badly-Structured-Sales-Data**
+  - STEP 1: Before cleaning
+  - STEP 2: Transformation
+  - STEP 3: Filling NULL
+  - STEP 4: Unpivot other tables
+  - STEP 5: Extract by delimeters
+  - STEP 6: Remove duplicate row
+- **Project 2: 1.Badly-Structured-Sales-Data-4**
+  - Merge column
+  - Transformation
+  - Fill Down
+  - Split by delimeter
+  - Remove duplicate row
+- **Project 3: Third Data cleaning -Jumbled-up-Customers-Details**
+  - Splitting in between
+  - Other columns
+  - then we rename the remaining column and remove the main column
+- **Project 4: 4.Hospital-Data-with-Mixed-Numbers-and-Characters**
+  - ADD COLUMN FROM EXAMPLEs
+  - ADD COLUMN FROM EXAMPLES LOOK
+  - Change in datatype
+- **Project 5: 5.Invoices-with-Merged-Categories-and-Merged-Amounts**
+  - Merge using duplicate row as the connector
+  - Merge using unique value INDEX
+  - Final cleaned invoice data
+</details>
+
+<details>
+<summary><b>3. Data Modeling</b></summary>
+Structuring tables to create relationships and reduce redundancy.
+
+- **DATA MODELLING**
+- **How to build a Data Model?**
+- **First step after Knowing the Table to split to on POWWER QUERY**
+- **Repeat the same steps for the remaining table**
+- **FOR ORDER TABLES**
+- **Image after the Redundancy**
+- **Many to many error**
+- **To clear the error and then merge table**
+- **Final connection**
+</details>
+
+<details>
+<summary><b>4. Dashboards & Visualization</b></summary>
+Bringing the cleaned and modeled data to life.
+
+- **HR DASHBOARD**
+</details>
+
 ## SQL (Structured Query Language)
 <details>
 <summary><b>1. Database Environment & Administration "DROP,CREATE,..." (Beginner SQL)</b></summary>
